@@ -21,12 +21,17 @@ button {
 }
 h2 {
   margin-top: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 41px;
 }
 img {
-  padding: 15px;
-  border: solid 1px darkgray;
   border-radius: 50%;
   width: 5rem;
   height: 5rem;
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 </style>
