@@ -3,7 +3,7 @@
     <h2>Copy people</h2>
     <p>Best matches based on your preferences</p>
     <br/>
-    <CopyPeopleBox/>
+    <CopyPeopleBox :users="users"/>
   </div>
 </template>
 
@@ -14,9 +14,18 @@ import CopyPeopleBox from '@/components/CopyPeople/CopyPeopleBox.vue'
 @Component({
   components: {
     CopyPeopleBox
+  },
+  computed: {
+    users () {
+      return this.$store.getters.users
+    }
   }
 })
-export default class CopyPeople extends Vue {}
+export default class CopyPeople extends Vue {
+  created () {
+    this.$store.dispatch('bindUsers')
+  }
+}
 </script>
 
 <style scoped></style>
