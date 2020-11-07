@@ -1,0 +1,13 @@
+<div >
+  <div>Hello, {{ name }}!</div>
+
+  <img alt="User" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQjoI7I2f0MksLQVSiwsq-nH6M__QJRDIrKug&usqp=CAU">
+
+  <div>Your monthly income: {{ income }} euros</div>
+
+  <div class="buttons-container">
+  <button class="set-expense-btn" v-on:click="setExpense()">Set your own expense ratios</button>
+  <div>or</div>
+  <button class="copy-others-btn" v-on:click="copyOthers()">Copy others</button>
+</div>
+</div>

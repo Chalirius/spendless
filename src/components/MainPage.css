@@ -1,0 +1,35 @@
+img {
+  padding: 15px;
+  border: solid 1px darkgray;
+  border-radius: 50%;
+}
+.buttons-container {
+  height: 18vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.set-expense-btn {
+  width: 307px;
+  height: 52px;
+  left: 34px;
+  top: 646px;
+
+  background: rgba(0, 123, 255, 0.25);
+  border-radius: 10px;
+  border: none;
+  color: #FFFFFF;
+}
+.copy-others-btn {
+  width: 307px;
+  height: 52px;
+  left: 34px;
+  top: 646px;
+
+  background: #007BFF;
+  border-radius: 10px;
+  border: none;
+  color: white;
+
+}
