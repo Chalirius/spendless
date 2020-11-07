@@ -1,5 +1,6 @@
 export interface User {
   id: string
+  nickname: string
   numberOfCopiers: number
   ageGroup: string
   area: string
@@ -21,3 +22,4 @@ export interface Category {
   name: string
   percentage: number
 }
+
