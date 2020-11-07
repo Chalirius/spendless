@@ -39,7 +39,7 @@ export default class CopyPeople extends Vue {}
   padding: 0 0.5rem;
   margin: auto;
 
-  border: 0.5px solid #000000;
+  border: 0.5px solid white;
   box-sizing: border-box;
   border-radius: 40px;
 }
