@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter, { RouteConfig } from 'vue-router'
 import Home from '../views/Home.vue'
-import CopyPeople from '../components/CopyPeople.vue'
+import CopyPeople from '../components/CopyPeople/CopyPeople.vue'
 
 Vue.use(VueRouter)
 
