@@ -4,7 +4,11 @@
     <img src="../../../public/armstrong-face.jpg">
     </div>
     <div class="user-details">
-      <div class="nickname">{{ user.nickname }}</div>
+      <div class="nickname">
+        <router-link to="/copy-people-detail">
+          {{ user.nickname }}
+        </router-link>
+      </div>
       <div>
         Hi! I am sharing my lifestyle to help you save {{ user.saveFromIncomePct }}% of your monthly income.
       </div>

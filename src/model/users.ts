@@ -9,7 +9,7 @@ export interface User {
   prefs: string[]
 }
 
-export interface UserMontlyBankData {
+export interface UserMonthlyBankData {
   userId: string
   recurring: Category[]
   savings: Category[]
