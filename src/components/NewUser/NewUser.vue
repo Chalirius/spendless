@@ -74,7 +74,7 @@ export default class NewUser extends Vue {}
 
 <style scoped>
   .new-user-container {
-    width: 24em;
+    width: 20em;
     margin-left: auto;
     margin-right: auto;
     text-align: left;

@@ -16,7 +16,7 @@
 
     </v-chip-group>
 
-    <v-btn @click="savePreferences()" style="margin-top: 400px;"
+    <v-btn @click="savePreferences()" style="margin-top: 380px;"
       color="primary"
       block
       depressed
@@ -33,7 +33,7 @@ import { Component, Vue } from 'vue-property-decorator'
 @Component({
   data () {
     return {
-      allPrefs: ['Ethical buying', 'Vegan', 'Libertarian', 'Organic', 'Investing', 'Doomsday prepping'],
+      allPrefs: ['Ethical buying', 'Vegan', 'Foodie', 'Libertarian', 'Organic', 'Investing', 'Doomsday prepping', 'All-night hacking'],
       chosenPrefs: new Map()
     }
   },

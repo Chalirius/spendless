@@ -57,7 +57,7 @@ export default class CopyPeopleBox extends Vue {}
   justify-content: center;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 10px;
-  width: 25rem;
+  width: 24rem;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
