@@ -2,10 +2,10 @@
   <div class="details">
     <div class="user-details">
       <div class="img-container">
-        <img src="../../../public/armstrong-face.jpg">
+        <img style="margin-top: 20px;" src="../../../public/armstrong-face.jpg">
       </div>
-      <div>
-        <div class="nickname">Alex</div>
+      <div style="width: 350px;">
+        <h2 class="nickname">Alex</h2>
         <div>
           Hi! I am sharing my lifestyle to help you save 20% of your monthly income.
         </div>
@@ -41,7 +41,15 @@
       </div>
     </div>
     <p>With your current income, you could save €4176 in 12 months</p>
-    <button>Copy</button>
+
+    <v-btn
+      color="primary"
+      depressed
+      elevation="2"
+      dark
+      rounded
+    >Copy</v-btn>
+
   </div>
 </template>
 
@@ -66,6 +74,8 @@
 }
 .user-details {
   display: flex;
+  justify-content: center;
+  text-align: left;
 }
 .preference {
   display: inline-block;
@@ -85,7 +95,11 @@
   line-height: 13px;
 }
 .monthly-data {
-  display: inline-block;
+  display: flex;
+  flex-flow: wrap;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .single-piece-data {
   margin: 5px;

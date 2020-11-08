@@ -14,8 +14,6 @@
   text-align: center;
   color: #ffffff;
   background: black;
-  height: 100vh;
-
 }
 
 button {

@@ -1,13 +1,28 @@
-<div >
-  <h2>Hello, {{ name }}!</h2>
+<div class="container" >
+  <h2 style="text-align: left">Hello, {{ name }}!</h2>
+<br/>
+  <img style="width: 162px; height: 162px;"alt="User" src="https://scontent-hel3-1.xx.fbcdn.net/v/t1.15752-9/123842868_660109127995002_7103927637007582459_n.jpg?_nc_cat=101&ccb=2&_nc_sid=ae9488&_nc_ohc=7leyrJ1dc7wAX80Vd10&_nc_ht=scontent-hel3-1.xx&oh=baeac1992e908c554ef4b98cd72fc934&oe=5FCD67EF">
 
-  <img alt="User" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQjoI7I2f0MksLQVSiwsq-nH6M__QJRDIrKug&usqp=CAU">
-
-  <div>Your monthly income: {{ income }} euros</div>
+  <div>Your monthly income</div>
+  <h3 style="font-size: 35px;">{{ income }} euros</h3>
 
   <div class="buttons-container">
-  <button class="set-expense-btn" v-on:click="setExpense()">Set your own expense ratios</button>
+  <v-btn @click="setExpense()" 
+    color="secondary"
+    depressed
+    elevation="2"
+    dark
+    rounded
+  >Set your own expense ratios</v-btn>
+
   <div>or</div>
-  <button class="copy-others-btn" v-on:click="copyOthers()">Copy others</button>
+
+  <v-btn @click="copyOthers()"
+  color="primary"
+  depressed
+  elevation="2"
+  dark
+  rounded
+>Copy others</v-btn>
 </div>
 </div>

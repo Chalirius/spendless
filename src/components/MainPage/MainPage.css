@@ -1,9 +1,14 @@
 .buttons-container {
-  height: 18vh;
+  margin-top: 50px;
+  height: 200px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+.container {
+  width: 20em;
+  margin-left: auto;
+  margin-right: auto;
 }
 .set-expense-btn {
   width: 307px;

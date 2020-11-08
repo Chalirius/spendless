@@ -41,11 +41,9 @@ import { Component, Vue } from 'vue-property-decorator'
     addOrRemovePref (pref: string) {
       const prefMap: Map<string, boolean> = this.$data.chosenPrefs
       if (!prefMap.has(pref)) {
-        console.log('SETTING', pref, true)
         return prefMap.set(pref, true)
       }
       const currentPrefValue = prefMap.get(pref)
-      console.log('SETTING', pref, !currentPrefValue)
       prefMap.set(pref, !currentPrefValue)
     },
     savePreferences () {

@@ -13,7 +13,6 @@ export default class MainPage extends Vue {
 
   copyOthers () {
     this.$router.push({ name: 'CopyPeople' })
-    console.log('COPY OTHERS')
   }
 }
 
